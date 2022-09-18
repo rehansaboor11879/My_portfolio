@@ -1,0 +1,202 @@
+* {
+    font-family: monospace;
+    color: #eee;
+}
+
+.section1_p1 {
+    background-color: #282c34;
+    font-family: monospace;
+    color: #11ABB0;
+    text-align: center;
+    justify-content: center;
+}
+
+.section1_p2 {
+    background-color: #282c34;
+}
+
+.Header a {
+    font-family: monospace;
+    color: #eee;
+    font-size: x-small;
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-family: sans-serif;
+    color: #eee;
+    font-weight: bolder;
+    margin-top: 8rem;
+}
+
+
+i {
+    font-size: x-large;
+} 
+
+.drop-icon {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.row3, row4 {
+    background-color: #2B2B2B ;
+
+}
+.pic {
+    width: 40%;
+    height: 85%;
+    border-radius: 3rem solid green;
+    margin-left: 10rem;
+}
+
+.about_contact {
+    font-family: sans-serif;
+    color: #eee;
+    font-weight: bolder;
+}
+
+p {
+    font-family: monospace;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    width: 130%;
+}
+
+.btn i {
+    font-size: large;
+}
+
+.section2 {
+    background-color: white;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+.work {
+    text-align: center;
+}
+
+.work h4 {
+    color: black;
+    font-weight: bolder;
+    margin-left: 4rem;
+}
+
+h4 {
+    color: black;
+}
+
+.workdetail {
+    font-weight: bolder;
+    color: red;
+}
+
+.workdetail1 {
+    font-style: italic;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.line {
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid red;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.p1 {
+    font-family: monospace;
+    margin-bottom: 2rem;
+    color: blue;
+}
+
+.skils i {
+    font-size: 5rem;
+    margin-left: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.skils h6 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.pink1 {
+    background-color: pink;
+    height: 9rem;
+    text-align: center;
+}
+
+.pink1 h6 {
+    margin-top: 4.5rem;
+    color: black;
+}
+
+.btn_section3 {
+    color: white;
+}
+.main {
+    text-align: start;
+}
+#lemail, #email, #lmsg, #msg {
+    font-size: 2rem;
+    margin-right: 3rem;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+    color: brown;
+}
+
+#email {
+    margin-left: 12rem;
+    background-color: brown;
+}
+
+#msg {
+    height: 10rem;
+    background-color: brown;
+}
+@media screen and (max-width: 700px) {
+    .row3 {
+        background-color: #2B2B2B ;
+    
+    }
+
+    .btn {
+        width: 300%;
+        font-size: xx-small;
+        margin-left: 2rem;
+    }
+    
+    .btn i {
+        font-size: x-small;
+    }
+
+    .skils i {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        text-align: center;
+        color: black;
+    }
+    
+    .skils h6 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: black;
+        font-size: 0.6rem;
+    }
+
+    .pic {
+        width: 60%;
+        height: 20%;
+        border-radius: 3rem solid green;
+        margin-left: -2rem;
+    }
+    
+  }
