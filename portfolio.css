@@ -17,6 +17,10 @@
     background-color: #282c34;
 }
 
+.disabled {
+    display: none;
+}
+
 .Header a {
     font-family: monospace;
     color: #eee;
@@ -275,5 +279,28 @@ h4 {
         margin-bottom: 2rem;
     }
     
+    .disabled {
+        display: flex;
+        background-color: #2B2B2B 
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+    }
+
+    .dropdown-item {
+        color: #eee;
+        background-color: transparent;
+    }
+    .Header {
+        display: none;
+    }
+
+    .dropdown-toggle {
+        justify-content: end;
+        align-items: flex-end;
+        width: 50%;
+        background-color: #2B2B2B 
+    }
 
   }
