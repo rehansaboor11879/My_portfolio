@@ -186,8 +186,13 @@ h4 {
         width: 60%;
         height: 20%;
         border-radius: 3rem solid green;
-        margin-left: -2rem;
         margin-bottom: 2rem;
+    }
+
+    .about_contact {
+        font-family: sans-serif;
+        color: #eee;
+        font-weight: bolder;
     }
 
     .drop-icon {
@@ -198,6 +203,7 @@ h4 {
     .row3, .row4 {
         background-color: #2B2B2B ;
         text-align: center;
+        justify-content: center;
         display: inline;
     
     }
@@ -276,19 +282,17 @@ h4 {
         background-color: transparent;
     }
 
+    .dropdown-toggle i {
+        background-color: #2B2B2B;
+        margin-bottom: 3rem;
+    }
     .dropdown-item {
         color: #eee;
-        background-color: transparent;
+        background-color: #2B2B2B;
     }
+    
     .Header {
         display: none;
-    }
-
-    .dropdown-toggle {
-        justify-content: end;
-        align-items: flex-end;
-        width: 50%;
-        background-color: #2B2B2B 
     }
 
   }
